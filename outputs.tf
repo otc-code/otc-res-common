@@ -10,5 +10,10 @@ output "locals" {
 
 output "sep" {
   value       = local.data.seperator
-  description = "A Map of useful locals based on the input variables which can be referred from hcl."
+  description = "The used seperator"
+}
+
+output "lc" {
+  value       = local.location_codes[var.cloud_region].code
+  description = "The Location Code"
 }
