@@ -4,5 +4,4 @@ global_config = {
   env             = "DEV"
   project         = "DEMO"
   application     = "Test"
-  costcenter      = "0815"
 }
