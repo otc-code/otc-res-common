@@ -1,0 +1,27 @@
+name: OTC Test - AWS Login
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - 'main'
+
+permissions:
+  contents: read
+  id-token: write
+
+
+jobs:
+  test:
+    name: OTC Actions Automatic Tests
+    runs-on: [Linux]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: AWS login
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          role-to-assume: arn:aws:iam::710036656280:role/1vsu-dev-euc1-test-oidc-iam-role
+          role-session-name: test-action
+          aws-region: 'eu-central-1'
