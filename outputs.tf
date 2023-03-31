@@ -17,3 +17,7 @@ output "lc" {
   value       = local.location_codes[var.cloud_region].code
   description = "The Location Code"
 }
+
+output "name_prefix" {
+  value = local.locals.name_prefix
+}
