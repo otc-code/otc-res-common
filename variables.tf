@@ -64,9 +64,9 @@ variable "module_version" {
 # Custom Variables
 # ---------------------------------------------------------------------------------------------------------------------
 variable "custom_tags" {
-  type    = map(string)
-  default = null
-
+  type        = map(string)
+  default     = null
+  description = "A map of custom tags."
 }
 
 variable "custom_name" {
