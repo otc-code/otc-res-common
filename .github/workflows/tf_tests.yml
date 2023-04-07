@@ -5,6 +5,7 @@ on:
 
 jobs:
   TF_Tests:
+  name: TF Tests
     uses: otc-code/gh-workflows/.github/workflows/tf_test.yml@main
 
 
