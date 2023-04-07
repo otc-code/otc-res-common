@@ -1,7 +1,7 @@
 cloud_region = "eu-central-1"
 global_config = {
-  customer_prefix = ""
-  env             = "DEV"
-  project         = "DEMO"
+  customer_prefix = "otc"
+  env             = "INT"
+  project         = "Test"
   application     = "Test"
 }

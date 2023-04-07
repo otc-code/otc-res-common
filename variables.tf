@@ -59,15 +59,14 @@ variable "module_version" {
   type        = string
   default     = "Commons Module"
   description = "Add a special tag for versioning tags."
-
 }
 # ---------------------------------------------------------------------------------------------------------------------
 # Custom Variables
 # ---------------------------------------------------------------------------------------------------------------------
 variable "custom_tags" {
-  type    = map(string)
-  default = null
-
+  type        = map(string)
+  default     = null
+  description = "A map of custom tags."
 }
 
 variable "custom_name" {
