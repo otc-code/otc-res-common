@@ -2,7 +2,8 @@ name: 'Terraform tests'
 
 on:
   push:
+
 jobs:
-  Terraform tests:
+  TF_Tests:
     uses: otc-code/gh-workflows/.github/workflows/tf_test.yml@main
 
