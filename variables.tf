@@ -59,7 +59,6 @@ variable "module_version" {
   type        = string
   default     = "Commons Module"
   description = "Add a special tag for versioning tags."
-
 }
 # ---------------------------------------------------------------------------------------------------------------------
 # Custom Variables
