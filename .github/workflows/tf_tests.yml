@@ -6,6 +6,6 @@ on:
 jobs:
   TF_Tests:
     uses: otc-code/gh-workflows/.github/workflows/tf_test.yml@main
-  TF_Tests:
+  Tests:
     uses: otc-code/gh-workflows/tf_test.yml@main
 
