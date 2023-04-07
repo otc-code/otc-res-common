@@ -16,5 +16,6 @@ jobs:
   TF_Tests:
     name: Terraform Tests
     uses: otc-code/gh-workflows/.github/workflows/tf_test.yml@main
+    secrets: inherit
 
 
