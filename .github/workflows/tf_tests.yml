@@ -3,7 +3,6 @@ name: 'Terraform tests'
 on:
   workflow_dispatch:
   pull_request:
-  push:
 
 permissions:
   # required for all workflows
@@ -18,7 +17,3 @@ jobs:
     name: Terraform Tests
     uses: otc-code/gh-workflows/.github/workflows/tf_test.yml@main
     secrets: inherit
-
-
-
-

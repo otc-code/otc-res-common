@@ -19,5 +19,6 @@ output "lc" {
 }
 
 output "name_prefix" {
-  value = local.locals.name_prefix
+  value       = local.locals.name_prefix
+  description = "The name prefix."
 }
