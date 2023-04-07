@@ -5,7 +5,7 @@
 <summary>Table of contents</summary>
 
 
-- [otc-code/otc-res-common](#otc-codeotc-res-common)
+- [otc-res-common](#otc-res-common)
 - [Overview](#overview)
 - [Terraform Docs](#terraform-docs)
   * [Requirements](#requirements)
@@ -66,5 +66,5 @@ No modules.
 | <a name="output_sep"></a> [sep](#output\_sep) | The used seperator |
 | <a name="output_tags"></a> [tags](#output\_tags) | A Map of tags based on the input variables which can be referred from hcl. |
 <!-- END_TF_DOCS -->
-<p align=right>Updated: https://github.com/otc-code/otc-res-common/actions/runs/4640794322</p>
+<p align=right>Updated: https://github.com/otc-code/otc-res-common/actions/runs/4640806102</p>
 <!-- OTC-FOOTER-END -->
