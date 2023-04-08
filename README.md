@@ -14,7 +14,8 @@
     -   [Inputs](#inputs)
     -   [Outputs](#outputs)
         </details>
-        <!-- OTC-HEADER-END -->
+
+<!-- OTC-HEADER-END -->
 
 # Overview
 
