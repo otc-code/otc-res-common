@@ -139,6 +139,9 @@
     },
     "sa-east-1": {
       "code": "sae1"
+    },
+    "europe-west3": {
+      "code": "euw3"
     }
   
 }
