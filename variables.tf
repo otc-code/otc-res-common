@@ -74,8 +74,8 @@ variable "custom_name" {
   default     = ""
   description = "Set custom name for deployment."
   validation {
-    condition     = length(var.custom_name) < 16 && length(regexall("[^a-zA-Z0-9-]", var.custom_name)) == 0
-    error_message = "The custom name must not be longer than 15 characters and only contain letters, '-' and numbers."
+    condition     = length(var.custom_name) < 31 && length(regexall("[^a-zA-Z0-9-]", var.custom_name)) == 0
+    error_message = "The custom name must not be longer than 30 characters and only contain letters, '-' and numbers."
   }
 }
 
