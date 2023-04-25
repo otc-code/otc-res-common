@@ -1,6 +1,6 @@
 <!-- OTC-HEADER-START -->
 # otc-res-common
-<p align=right>⚙ 13.04.2023</p>
+
 <details>
 <summary>Table of contents</summary>
 
@@ -66,5 +66,5 @@ No modules.
 | <a name="output_sep"></a> [sep](#output\_sep) | The used seperator |
 | <a name="output_tags"></a> [tags](#output\_tags) | A Map of tags based on the input variables which can be referred from hcl. |
 <!-- END_TF_DOCS -->
-<p align=right>Updated: https://github.com/otc-code/otc-res-common/actions/runs/4692541566</p>
+
 <!-- OTC-FOOTER-END -->
