@@ -15,6 +15,7 @@ locals {
   tags = merge(var.custom_tags, local.locals.global_tags)
 }
 
+
 resource "random_string" "customer_prefix" {
   count = length(var.global_config.customer_prefix) == 0 ? 1 : 0
   keepers = {
